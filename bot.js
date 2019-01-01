@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client(529646570983915551);
 
 client.on('ready', () => {
-    client.user.setGame(`happy new year rex isthe best `,"http://twitch.tv/y04zgamer")
+    client.user.setGame(`happy new year rex is the best `,"http://twitch.tv/y04zgamer")
     client.user.setStatus("dnd")
   console.log(`Logged in as ${client.user.tag}!`);
 });
